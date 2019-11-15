@@ -40,11 +40,11 @@ public class ColorsActivity extends AppCompatActivity {
         words.add(new Word("black", "kululli", R.drawable.color_black));
         words.add(new Word("white", "kelelli", R.drawable.color_white));
 
-       // WordAdapter adapter = new WordAdapter(this, words);
+        WordAdapter adapter = new WordAdapter(this, words);
 
         ListView listView = (ListView) findViewById(R.id.list);
 
-       // listView.setAdapter(adapter);
+        listView.setAdapter(adapter);
 
 
 
